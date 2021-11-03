@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.sapteh.controller.MainController">
+   <children>
+      <TextField fx:id="firstNameText" layoutX="237.0" layoutY="65.0" />
+      <TextField fx:id="lastNameText" layoutX="237.0" layoutY="111.0" />
+      <TextField fx:id="ageText" layoutX="237.0" layoutY="161.0" />
+      <Button layoutX="79.0" layoutY="304.0" mnemonicParsing="false" onAction="#exitButton" text="Выход" />
+      <Button layoutX="386.0" layoutY="304.0" mnemonicParsing="false" onAction="#addedButton" text="Добавить" />
+      <Label layoutX="131.0" layoutY="69.0" text="First_name" />
+      <Label layoutX="131.0" layoutY="115.0" text="Last_name" />
+      <Label layoutX="131.0" layoutY="165.0" text="Age" />
+      <Label fx:id="alertText" layoutX="286.0" layoutY="218.0" />
+   </children>
+</AnchorPane>
